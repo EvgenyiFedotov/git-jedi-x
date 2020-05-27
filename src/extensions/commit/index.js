@@ -1,6 +1,6 @@
 const { dirname } = require("path");
 
-const { gitChanges } = require("../../git");
+const { gitChanges } = require("../../lib/git");
 
 function scopesByChangesSrc() {
   const paths = gitChanges().map(_parseScopePath).filter(Boolean);
