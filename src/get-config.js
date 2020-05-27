@@ -3,7 +3,7 @@ const { cosmiconfigSync } = require("cosmiconfig");
 const { configCommit } = require("./config/commit");
 
 async function getConfig(program) {
-  const exlorerConfig = cosmiconfigSync("gjx");
+  const exlorerConfig = cosmiconfigSync("jgx");
 
   const { filepath = "", config = {} } = program.config
     ? exlorerConfig.load(program.config)
