@@ -8,7 +8,8 @@
         "args": "after-used",
         "ignoreRestSiblings": false
       }
-    ]
+    ],
+    "curly": "error"
   },
   "parserOptions": {
     "ecmaVersion": 2017

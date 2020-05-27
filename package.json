@@ -18,5 +18,10 @@
     "hooks": {
       "pre-commit": "yarn eslint ./src"
     }
+  },
+  "dependencies": {
+    "commander": "^5.1.0",
+    "cosmiconfig": "^6.0.0",
+    "inquirer": "^7.1.0"
   }
 }
